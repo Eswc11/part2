@@ -2,13 +2,12 @@ myfamily = ("mother", "father", "sister", "brother", "sister")
 print(type(myfamily)) 
 
 
-myfamily = ("mother", "father", "sister", "brother", "sister") 
 print(myfamily[2]) 
 
-myfamily = ("mother", "father", "sister", "brother", "sister") 
+#ERROR
 myfamily.append = "me"
 print(myfamily)
 
-myfamily = ("mother", "father", "sister", "brother", "sister") 
+#ERROR
 print(myfamily.pop(3))
 
