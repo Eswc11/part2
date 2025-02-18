@@ -2,19 +2,19 @@ import pandas as pd
 import numpy as np
 # 1 exercises
 
-# Scalar numbers
+# 
 scalar_series = pd.Series(42)
 print(scalar_series)
 
-# List
+# 
 list_series = pd.Series([1, 2, 3, 4, 5])
 print(list_series)
 
-# Tuple
+# 
 tuple_series = pd.Series((10, 20, 30, 40))
 print(tuple_series)
 
-# Dictionary
+# 
 dict_series = pd.Series({'a': 100, 'b': 200, 'c': 300})
 print(dict_series)
 
